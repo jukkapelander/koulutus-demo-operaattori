@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Finvoice Version="3.0">
+  <MessageTransmissionDetails>
+    <MessageSenderDetails>
+      <FromIdentifier>003712345671</FromIdentifier>
+      <FromIntermediator>MAOPFIH1</FromIntermediator>
+    </MessageSenderDetails>
+    <MessageReceiverDetails>
+      <ToIdentifier>003723456780</ToIdentifier>
+      <ToIntermediator>MAOPFIH1</ToIntermediator>
+    </MessageReceiverDetails>
+    <MessageDetails>
+      <MessageIdentifier>MSG-2006</MessageIdentifier>
+    </MessageDetails>
+  </MessageTransmissionDetails>
+  <InvoiceDetails>
+    <InvoiceNumber>INV-6006</InvoiceNumber>
+    <InvoiceDate Format="CCYYMMDD">20261001</InvoiceDate>
+    <InvoiceTotalVatIncludedAmount AmountCurrencyIdentifier="EUR">9900.00</InvoiceTotalVatIncludedAmount>
+  </InvoiceDetails>
+</Finvoice>

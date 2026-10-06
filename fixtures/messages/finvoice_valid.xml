@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Finvoice Version="3.0">
+  <MessageTransmissionDetails>
+    <MessageSenderDetails>
+      <FromIdentifier>003723456780</FromIdentifier>
+      <FromIntermediator>MAOPFIH1</FromIntermediator>
+    </MessageSenderDetails>
+    <MessageReceiverDetails>
+      <ToIdentifier>003712345671</ToIdentifier>
+      <ToIntermediator>VLASFIH2</ToIntermediator>
+    </MessageReceiverDetails>
+    <MessageDetails>
+      <MessageIdentifier>MSG-2001</MessageIdentifier>
+      <MessageTimeStamp>2026-10-01T08:00:00</MessageTimeStamp>
+    </MessageDetails>
+  </MessageTransmissionDetails>
+  <SellerPartyDetails>
+    <SellerOrganisationName>Pohjolan Pakkaus Oy</SellerOrganisationName>
+  </SellerPartyDetails>
+  <BuyerPartyDetails>
+    <BuyerOrganisationName>Kuusamon Kahvila Oy</BuyerOrganisationName>
+  </BuyerPartyDetails>
+  <InvoiceDetails>
+    <InvoiceNumber>INV-6001</InvoiceNumber>
+    <InvoiceDate Format="CCYYMMDD">20261001</InvoiceDate>
+    <InvoiceTotalVatExcludedAmount AmountCurrencyIdentifier="EUR">1250.00</InvoiceTotalVatExcludedAmount>
+    <InvoiceTotalVatAmount AmountCurrencyIdentifier="EUR">300.00</InvoiceTotalVatAmount>
+    <InvoiceTotalVatIncludedAmount AmountCurrencyIdentifier="EUR">1550.00</InvoiceTotalVatIncludedAmount>
+    <PaymentTermsDetails>
+      <InvoiceDueDate Format="CCYYMMDD">20261015</InvoiceDueDate>
+    </PaymentTermsDetails>
+  </InvoiceDetails>
+  <InvoiceRow>
+    <ArticleName>Pakkausmateriaali</ArticleName>
+    <RowVatExcludedAmount AmountCurrencyIdentifier="EUR">1250.00</RowVatExcludedAmount>
+    <RowVatRatePercent>24.00</RowVatRatePercent>
+  </InvoiceRow>
+  <EpiDetails>
+    <EpiPartyDetails>
+      <EpiBeneficiaryPartyDetails>
+        <EpiAccountID IdentificationSchemeName="IBAN">FI1011112222333344</EpiAccountID>
+      </EpiBeneficiaryPartyDetails>
+    </EpiPartyDetails>
+    <EpiIdentificationDetails>
+      <EpiRemittanceInfoIdentifier IdentificationSchemeName="SPY">12506</EpiRemittanceInfoIdentifier>
+    </EpiIdentificationDetails>
+  </EpiDetails>
+</Finvoice>

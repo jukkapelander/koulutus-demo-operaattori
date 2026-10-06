@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Finvoice Version="3.0">
+  <MessageTransmissionDetails>
+    <MessageSenderDetails>
+      <FromIdentifier>003734567814</FromIdentifier>
+      <FromIntermediator>MAOPFIH1</FromIntermediator>
+    </MessageSenderDetails>
+    <MessageReceiverDetails>
+      <ToIdentifier>003776543212</ToIdentifier>
+      <ToIntermediator>VLASFIH2</ToIntermediator>
+    </MessageReceiverDetails>
+    <MessageDetails>
+      <MessageIdentifier>MSG-2008</MessageIdentifier>
+    </MessageDetails>
+  </MessageTransmissionDetails>
+  <InvoiceDetails>
+    <InvoiceNumber>INV-6008</InvoiceNumber>
+    <InvoiceDate Format="CCYYMMDD">20261001</InvoiceDate>
+    <InvoiceTotalVatAmount AmountCurrencyIdentifier="EUR">235.20</InvoiceTotalVatAmount>
+    <InvoiceTotalVatIncludedAmount AmountCurrencyIdentifier="EUR">1200.00</InvoiceTotalVatIncludedAmount>
+  </InvoiceDetails>
+  <InvoiceRow>
+    <ArticleName>Nostopalvelu</ArticleName>
+    <RowVatExcludedAmount AmountCurrencyIdentifier="EUR">980.00</RowVatExcludedAmount>
+    <RowVatRatePercent>24.00</RowVatRatePercent>
+  </InvoiceRow>
+</Finvoice>

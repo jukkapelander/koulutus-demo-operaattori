@@ -1,0 +1,4 @@
+/vendor/
+/storage/messages/*.xml
+*.swp
+.DS_Store

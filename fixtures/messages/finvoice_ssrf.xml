@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Finvoice Version="3.0">
+  <MessageTransmissionDetails>
+    <MessageSenderDetails>
+      <FromIdentifier>003723456780</FromIdentifier>
+      <FromIntermediator>MAOPFIH1</FromIntermediator>
+    </MessageSenderDetails>
+    <MessageReceiverDetails>
+      <ToIdentifier>003712345671</ToIdentifier>
+      <ToIntermediator>VLASFIH2</ToIntermediator>
+    </MessageReceiverDetails>
+    <MessageDetails>
+      <MessageIdentifier>MSG-2007</MessageIdentifier>
+    </MessageDetails>
+  </MessageTransmissionDetails>
+  <InvoiceDetails>
+    <InvoiceNumber>INV-6007</InvoiceNumber>
+    <InvoiceDate Format="CCYYMMDD">20261001</InvoiceDate>
+    <InvoiceTotalVatIncludedAmount AmountCurrencyIdentifier="EUR">450.00</InvoiceTotalVatIncludedAmount>
+    <InvoiceUrlText>http://169.254.169.254/latest/meta-data/iam/security-credentials/</InvoiceUrlText>
+  </InvoiceDetails>
+</Finvoice>
