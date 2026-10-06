@@ -15,7 +15,7 @@ ohjelmistokehitykseen; tehtävät ovat tiedostossa `TEHTAVAT.md`.
 Vaihtoehto A – MariaDB Dockerissa, PHP omalla koneella:
 
 ```bash
-docker compose up -d db                               # MariaDB 11 + skeema + testiaineisto
+docker compose up -d --wait db                        # MariaDB 11 + skeema + testiaineisto
 sudo apt install php8.4-cli php8.4-xml php8.4-mysql    # Debian/Ubuntu/WSL2 (ks. "Työkalut" alla)
 php tests/run.php                                      # testien pitäisi mennä läpi
 php bin/migrate.php                                    # jos tietokanta on tyhjä
