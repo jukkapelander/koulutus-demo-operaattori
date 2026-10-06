@@ -16,7 +16,7 @@ final class Config
         return sprintf(
             'mysql:host=%s;port=%s;dbname=%s;charset=utf8mb4',
             self::get('DB_HOST', '127.0.0.1'),
-            self::get('DB_PORT', '3306'),
+            self::get('DB_PORT', '13306'),
             self::get('DB_NAME', 'operaattori'),
         );
     }

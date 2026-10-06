@@ -7,7 +7,7 @@ services:
       MARIADB_PASSWORD: operaattori
       MARIADB_ROOT_PASSWORD: root
     ports:
-      - "3306:3306"
+      - "${DB_PORT:-13306}:3306"
     volumes:
       - ./db/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
       - ./db/seed.sql:/docker-entrypoint-initdb.d/02_seed.sql:ro
@@ -29,7 +29,7 @@ services:
       DB_PASSWORD: operaattori
       APP_DEBUG: "true"
     ports:
-      - "8090:8090"
+      - "18090:8090"
     volumes:
       - .:/app
     depends_on:

@@ -19,7 +19,7 @@ docker compose up -d db                               # MariaDB 11 + skeema + te
 sudo apt install php8.4-cli php8.4-xml php8.4-mysql    # Debian/Ubuntu/WSL2 (ks. "Työkalut" alla)
 php tests/run.php                                      # testien pitäisi mennä läpi
 php bin/migrate.php                                    # jos tietokanta on tyhjä
-php -S 127.0.0.1:8090 -t public                        # kehityspalvelin
+php -S 127.0.0.1:18090 -t public                       # kehityspalvelin
 ```
 
 Vaihtoehto B – kaikki Dockerissa:
@@ -71,8 +71,8 @@ sama, ja vain saman osapuolen laskuihin. Summat vertaillaan sentin tarkkuudella.
 | GET | `/api/invoices/{id}` | Jäsennetty lasku |
 
 ```bash
-curl -X POST --data-binary @fixtures/messages/finvoice_valid.xml localhost:8090/api/messages
-curl localhost:8090/api/messages
+curl -X POST --data-binary @fixtures/messages/finvoice_valid.xml localhost:18090/api/messages
+curl localhost:18090/api/messages
 ```
 
 ## Testit

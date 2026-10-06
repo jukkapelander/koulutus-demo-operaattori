@@ -10,7 +10,7 @@ vastaanottajan operaattorille ja tuo pankin viitemaksuaineistoja. PHP 8.4 + Mari
 - Vastaanota sanoma: `php bin/ingest.php fixtures/messages/finvoice_valid.xml`
 - Reititä vastaanotetut: `php bin/route.php`
 - Tuo pankkiaineisto: `php bin/import_bank.php fixtures/viitemaksut.csv`
-- Kehityspalvelin: `php -S 127.0.0.1:8090 -t public`
+- Kehityspalvelin: `php -S 127.0.0.1:18090 -t public`
 
 ## Säännöt
 
